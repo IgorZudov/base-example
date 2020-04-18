@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ziv.CodeExample.Web", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ziv.CodeExample.UnitTests", "test\Ziv.CodeExample.UnitTests\Ziv.CodeExample.UnitTests.csproj", "{377665BA-6486-4A73-B08E-2696A1CBDF18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziv.CodeExample.Combinations", "src\Ziv.CodeExample.Combinations\Ziv.CodeExample.Combinations.csproj", "{CA93FBCA-35D7-41C1-939F-D88AB37D9C2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{377665BA-6486-4A73-B08E-2696A1CBDF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377665BA-6486-4A73-B08E-2696A1CBDF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377665BA-6486-4A73-B08E-2696A1CBDF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA93FBCA-35D7-41C1-939F-D88AB37D9C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA93FBCA-35D7-41C1-939F-D88AB37D9C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA93FBCA-35D7-41C1-939F-D88AB37D9C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA93FBCA-35D7-41C1-939F-D88AB37D9C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

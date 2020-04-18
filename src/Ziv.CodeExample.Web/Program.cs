@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Threading.Tasks;
-using CodeJam;
 using JetBrains.Annotations;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Serilog;
 using Serilog.Enrichers.AspnetcoreHttpcontext;
-using ILogger = Microsoft.Extensions.Logging.ILogger;
 
 namespace Ziv.CodeExample.Web
 {
