@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS base
+
+WORKDIR /app
+COPY  . /app/
+
+EXPOSE 5000
+
+ARG BUILD_VERSION=Undefined
+ENV BUILD_VERSION ${BUILD_VERSION}
+
+ARG BUILD_DATE=Undefined
+ENV BUILD_DATE ${BUILD_DATE}
+
+ARG ASPNETCORE_ENVIRONMENT=Production
+ENV ASPNETCORE_ENVIRONMENT ${ASPNETCORE_ENVIRONMENT}
+
+ENTRYPOINT ["dotnet", "/app/Ziv.CodeExample.Web.dll"]

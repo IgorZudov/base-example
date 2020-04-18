@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Ak Bars Digital Technologies</Authors>
+        <Company>Ak Bars Digital Technologies</Company>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<LangVersion>7.1</LangVersion>
+    </PropertyGroup>
+</Project>
